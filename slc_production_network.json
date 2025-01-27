@@ -1,0 +1,352 @@
+{
+	"name": "slc",
+	"facilities": {
+		"Westvala": {
+			"storage_cap": {
+				"cooler": 1,
+				"freezer": 2,
+				"dry": 3
+			},
+			"work_centers":  {
+				"Can Openers": {
+					"equipment": {
+						"Pneumatic Can Opener 1": {"type": "Pneumatic Can Opener"},
+						"Manual Can Opener 1": {"type": "Manual Can Opener"}
+					},
+					"compatible_process_list": [
+						"Open",
+						"Can Opening"
+					],
+					"category": "Prepping"
+				},
+				"Kettles + Skillets": {
+					"equipment": {
+						"Kettle-80 1": {"type": "80 gal Kettle"},
+						"Kettle-80 2": {"type": "80 gal Kettle"},
+						"Kettle-80 3": {"type": "80 gal Kettle"},
+						"Kettle-60": {"type": "60 gal Kettle"},
+						"Tilt Skillet 1": {"type": "40 gal Skillet"},
+						"Tilt Skillet 2": {"type": "40 gal Skillet"},
+						"Candy Burner 1": {"type": "Candy Burner"},
+						"Candy Burner 2": {"type": "Candy Burner"}
+					},
+					"compatible_process_list": [
+						"Kettle"
+					],
+					"category": "Hot Line"
+				},
+				"Skillets": {
+					"equipment": {
+						"Skillet 1": {"type": "40 gal Skillet"},
+						"Skillet 2": {"type": "40 gal Skillet"}
+					},
+					"compatible_process_list": [
+						"Skillet"
+					],
+					"category": "Hot Line"
+				},				
+
+				"Ovens": {
+					"equipment": {
+						"Unox Combi Oven 1": {"type": "Combi Oven STANDARD"},
+						"Unox Combi Oven 2": {"type": "Combi Oven STANDARD"}
+					},
+					"compatible_process_list": [
+						"Oven"
+					],
+					"category": "Hot Line"
+				},
+				"Prepping Stations": {
+					"equipment": {
+						"Food Prepping Station 1": {"type": "Prepping Station Pershing"},
+						"Food Prepping Station 2": {"type": "Prepping Station Pershing"},
+						"Food Prepping Station 3": {"type": "Prepping Station Pershing"}
+					},
+					"compatible_process_list": [
+						"Manual Prep",
+						"Scaling"
+					],
+					"category": "Prepping"
+				},
+				"Stick Blenders": {
+					"equipment": {
+						"Stick Blender STANDARD 1": {"type": "Stick Blender STANDARD"},
+						"Stick Blender STANDARD 2": {"type": "Stick Blender STANDARD"},
+						"Stick Blender STANDARD 3": {"type": "Stick Blender STANDARD"}
+					},
+					"compatible_process_list": [
+						"Sauce Mix"
+					],
+					"category": "Mixing"
+				},
+
+				"Stand Mixers": {
+					"equipment": {
+						"Mixer 1": {"type": "80 qt Stand Mixer"},
+						"Mixer 2": {"type": "80 qt Stand Mixer"},
+						"Mixer 3": {"type": "80 qt Stand Mixer"}
+					},
+					"compatible_process_list": [
+						"Planetary Mix"
+					],
+					"category": "Mixing"
+				},
+				"Meatball Forming": {
+					"equipment": {
+						"Meatball Machine 1": {"type": "Meatball Machine"}
+					},
+					"compatible_process_list": [
+						"Forming"
+					],
+					"category": "Prepping"
+				},
+
+				"Vertical Cutters": {
+					"equipment": {
+						"Vertical Cutting Machine 1": {"type": "Vertical Cutting Machine"}
+					},
+					"compatible_process_list": [
+						"VCM"
+					],
+					"category": "Prepping"
+				},
+				"Thaw Frozen": {
+					"equipment": {
+						"Thaw Frozen": {"type": "Thaw Frozen"}
+					},
+					"compatible_process_list": [
+						"Thaw"
+					],
+					"category": "Prepping"
+				},		
+				"Drain": {
+					"equipment": {
+						"Drain": {"type": "Drain"}
+					},
+					"compatible_process_list": [
+						"Drain"
+					],
+					"category": "Prepping"
+				},		
+				"Knife": {
+					"equipment": {
+						"Knife": {"type": "Knife"}
+					},
+					"compatible_process_list": [
+						"Knife"
+					],
+					"category": "Prepping"
+				},
+				"Vacuum Tumblers": {
+					"equipment": {
+						"Tumbler 1": {"type": "Vacuum Tumbler STANDARD"},
+						"New Tumbler": {"type": "New Tumbler STANDARD"}
+					},
+					"compatible_process_list": [
+						"Batch Mix"
+					],
+					"category": "Prepping"
+				},
+				"Tray Sealers": {
+					"equipment": {
+						"GT4": {"type": "Tray Sealer GT4"},
+						"GTRe 1": {"type": "Tray Sealer GTRe"},
+						"GTRe 2": {"type": "Tray Sealer GTRe"}
+						
+					},
+					"compatible_process_list": [
+						"Tray Portioning and Sealing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Manual Mixing": {
+					"equipment": {
+						"Bowl Mixing Station 1": {"type": "Bowl Mixing Station"},
+						"Bowl Mixing Station 2": {"type": "Bowl Mixing Station"},
+						"Bowl Mixing Station 3": {"type": "Bowl Mixing Station"},
+						"Bowl Mixing Station 4": {"type": "Bowl Mixing Station"},
+						"Bowl Mixing Station 5": {"type": "Bowl Mixing Station"}
+					},
+					"compatible_process_list": [
+						"Batch Mix",
+						"Sauce Mix"
+					],
+					"category": "Mixing"
+				},
+				"VFFS Liquid": {
+					"equipment": {
+						"Dangan": {"type": "Dangan Astromark II"}
+					},
+					"compatible_process_list": [
+						"Liquid Sachet Depositing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"VFFS Solid": {
+					"equipment": {
+						"Dry Bucket 1": {"type": "Dry Bucket Machine"},
+						"Dry Bucket 2": {"type": "Dry Bucket Machine"},
+						"Dry Bucket 3": {"type": "Dry Bucket Machine"}
+					},
+					"compatible_process_list": [
+						"Dry Sachet Depositing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Prep-Fill Stations": {
+					"equipment": {
+						"Prep Station 1": {"type": "Westvala Prep Station"},
+						"Prep Station 2": {"type": "Westvala Prep Station"},
+						"Prep Station 3": {"type": "Westvala Prep Station"},
+						"Prep Station 4": {"type": "Westvala Prep Station"},
+						"Prep Station 5": {"type": "Westvala Prep Station"},
+						"Prep Station 6": {"type": "Westvala Prep Station"},
+						"Prep Station 7": {"type": "Westvala Prep Station"},
+						"Prep Station 8": {"type": "Westvala Prep Station"},
+						"Prep Station 9": {"type": "Westvala Prep Station"},
+						"Prep Station 10": {"type": "Westvala Prep Station"},
+						"Prep Station 11": {"type": "Westvala Prep Station"},
+						"Prep Station 12": {"type": "Westvala Prep Station"}
+					},
+					"compatible_process_list": [
+						"Cup Portioning",
+						"Clamshell Portioning",
+						"Garnish Tray Assembly",
+						"Garnish Tray Building",
+						"Sleeving"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Bandsealers": {
+					"equipment": {
+						"Bandsealer 1": {"type": "Bandrite Bandsealer"},
+						"Bandsealer 2": {"type": "Bandrite Bandsealer"},
+						"Bandsealer 3": {"type": "Bandrite Bandsealer"},
+						"Bandsealer 4": {"type": "Bandrite Bandsealer"},
+						"Bandsealer 5": {"type": "Bandrite Bandsealer"}
+					},
+					"compatible_process_list": [
+						"Band Sealing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Pack 1": {
+					"equipment": {
+						"Line 1": {"type": "Tubeway Packout Line"},
+						"Line 2": {"type": "Tubeway Packout Line"}
+					},
+					"compatible_process_list": [
+						"Packout"
+					],
+					"category": "Packout"
+				},
+				"Facility": {
+					"equipment": {
+					},
+					"compatible_process_list": [
+						"Facility"
+					],
+					"category": "Facility"
+				}
+			},
+			"work_center_category_list": [
+				"Hot Line",
+				"Mixing",
+				"Prepping",
+				"Portioning and Sealing"
+			],
+			"facility_tasks": [
+				{
+					"title": "Inventory/S+R",
+					"subtype": "S+R",
+					"hours": "240",
+					"Day": "Sunday"
+				},
+				{
+					"title": "Sanitation",
+					"subtype": "Sanitation",
+					"hours": "400",
+					"Day": "Sunday"
+				},
+				{
+					"title": "Breaks",
+					"subtype": "Breaks",
+					"hours": "120",
+					"Day": "Sunday"
+				},
+				{
+					"title": "Inventory/S+R",
+					"subtype": "S+R",
+					"hours": "240",
+					"Day": "Monday"
+				},
+				{
+					"title": "Sanitation",
+					"subtype": "Sanitation",
+					"hours": "400",
+					"Day": "Monday"
+				},
+				{
+					"title": "Breaks",
+					"subtype": "Breaks",
+					"hours": "120",
+					"Day": "Monday"
+				}
+			]
+		}
+	},
+	"default_locations": {
+		"Packout": "Westvala",
+		"Sleeving": "Westvala",
+		"Portioning": "Westvala",
+		"Prep": "Westvala",
+		"Receiving": "Westvala"
+	},
+	"scheduling_preferences": {
+		"Packout": "MAX_CAPACITY"
+	},
+	"staffing": {
+		"corporate": [
+			{"name": "Cal", "email": "cal@tovala.com"},
+			{"name": "Erik", "email": "erik@tovala.com"},
+			{"name": "Tovala", "email": "tovalaserviceaccount@productionrecord.iam.gserviceaccount.com"}
+		],
+		"plant_managers": [
+			{"name": "Peggy", "email": "peggy@tovala.com"},
+			{"name": "Renee", "email": "rblack@tovala.com"},		
+			{"name": "Melody", "email": "melody@tovala.com"},				
+			{"name": "Brad", "email": "brad.tebbs@tovala.com"},
+			{"name": "Salma", "email": "salma@tovala.com"},
+			{"name": "Don", "email": "don@tovala.com"},
+			{"name": "Avobora", "email": "avobora@tovala.com"},	
+			{"name": "Dan", "email": "dpatino@tovala.com"},				
+			{"name": "Roxane", "email": "rreyesgarcia@tovala.com"},		
+			{"name": "Beatriz", "email": "bherrera@tovala.com"},		
+			{"name": "Michael", "email": "mmarcum@tovala.com"},		
+			{"name": "Lisa", "email": "lisa.rushton@tovala.com"},		
+			{"name": "Ode", "email": "odemarispomales@tovala.com"},		
+			{"name": "Erika", "email": "erika.orozco@tovala.com"},		
+			{"name": "Angelica", "email": "angelica@tovala.com"},
+			{"name": "Westvala-Production", "email": "westvala-production@tovala.com"},
+			{"name": "Viki", "email": "vickie.goodro@tovala.com"}	,
+			{"name": "Annet", "email": "annette.lopez@tovala.com"}	
+					
+		],
+		"mods": [		
+			
+		],
+		"supervisors": [		
+		]
+	},
+	"production_days": [
+		"Sunday",
+		"Monday",
+		"Tuesday",
+		"Wednesday",
+		"Thursday",
+		"Friday",
+		"Saturday",
+		"Sunday2",
+		"Monday2"
+	]
+}

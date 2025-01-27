@@ -1,0 +1,438 @@
+{
+	"name": "chicago",
+	"facilities": {
+		"Pershing": {
+			"storage_cap": {
+				"cooler": 1,
+				"freezer": 2,
+				"dry": 3
+			},
+			"work_centers": {
+				"Can Openers": {
+					"equipment": {
+						"Pneumatic Can Opener 1": {"type": "Pneumatic Can Opener"},
+						"Manual Can Opener 1": {"type": "Manual Can Opener"}
+					},
+					"compatible_process_list": [
+						"Open",
+						"Can Opening"
+					],
+					"category": "Prepping"
+				},
+				"Kettles + Skillets": {
+					"equipment": {
+						"Kettle-1": {"type": "80 gal Kettle"},
+						"Kettle-2": {"type": "80 gal Kettle"},
+						"Kettle-3": {"type": "80 gal Kettle"},
+						"Middle Kettle-60": {"type": "60 gal Kettle"},
+						"Skillet 1": {"type": "40 gal Skillet"},
+						"Skillet 2": {"type": "40 gal Skillet"}						
+					},
+					"compatible_process_list": [
+						"Kettle"
+					],
+					"category": "Hot Line"
+				},
+				"Skillets": {
+					"equipment": {
+						"Skillet 1": {"type": "40 gal Skillet"},
+						"Skillet 2": {"type": "40 gal Skillet"}
+					},
+					"compatible_process_list": [
+						"Skillet"
+					],
+					"category": "Hot Line"
+				},				
+
+				"Ovens": {
+					"equipment": {
+						"Unox Combi Oven 1": {"type": "Combi Oven STANDARD"},
+						"Unox Combi Oven 2": {"type": "Combi Oven STANDARD"},
+						"Unox Combi Oven 3": {"type": "Combi Oven STANDARD"}
+					},
+					"compatible_process_list": [
+						"Oven"
+					],
+					"category": "Hot Line"
+				},
+				"Manual Portioning Pershing": {
+					"equipment": {
+						"Manual Portioning Station 1": {"type": "Manual Portioning Station Pershing"}
+					},
+					"compatible_process_list": [
+						"Cup Portioning",
+						"Clamshell Portioning"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Prepping Stations": {
+					"equipment": {
+						"Prepping Station 1": {"type": "Prepping Station Pershing"},
+						"Prepping Station 2": {"type": "Prepping Station Pershing"}
+					},
+					"compatible_process_list": [
+						"Manual Prep",
+						"Scaling"
+					],
+					"category": "Prepping"
+				},
+				"Garnish Tray Pershing": {
+					"equipment": {
+						"Garnish Station 1": {"type": "Garnish Station"}
+					},
+					"compatible_process_list": [
+						"Garnish Tray Assembly",
+						"Garnish Tray Building"
+					],
+					"category": "Sleeving"
+				},
+				"Sleeving Pershing": {
+					"equipment": {
+						"Sleeving Station 1": {"type": "Sleeving Station Pershing"}
+					},
+					"compatible_process_list": [
+						"Sleeving"
+					],
+					"category": "Sleeving"
+				},
+				"Stand Mixers": {
+					"equipment": {
+						"East Mixer": {"type": "80 qt Stand Mixer"},
+						"New Mixer": {"type": "80 qt Stand Mixer"},
+						"West Mixer": {"type": "80 qt Stand Mixer"}
+					},
+					"compatible_process_list": [
+						"Planetary Mix"
+					],
+					"category": "Mixing"
+				},
+				"Tray Sealers Pershing": {
+					"equipment": {
+						"GTRe Tray Sealing Line": {"type": "Tray Sealer GTRe"},
+						"SealMax Tray Sealing Line": {"type": "Tray Sealing Line Sealmax x4"}
+					},
+					"compatible_process_list": [
+						"Tray Portioning and Sealing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Meatball Forming": {
+					"equipment": {
+						"Meatball Machine 1": {"type": "Meatball Machine"}
+					},
+					"compatible_process_list": [
+						"Forming"
+					],
+					"category": "Prepping"
+				},
+				"Stick Blenders": {
+					"equipment": {
+						"Stick Blender STANDARD 1": {"type": "Stick Blender STANDARD"}
+					},
+					"compatible_process_list": [
+						"Sauce Mix"
+					],
+					"category": "Mixing"
+				},
+				"Vertical Cutters": {
+					"equipment": {
+						"Vertical Cutting Machine 1": {"type": "Vertical Cutting Machine"}
+					},
+					"compatible_process_list": [
+						"VCM"
+					],
+					"category": "Prepping"
+				},
+				"Thaw Frozen": {
+					"equipment": {
+						"Thaw Frozen": {"type": "Thaw Frozen"}
+					},
+					"compatible_process_list": [
+						"Thaw"
+					],
+					"category": "Prepping"
+				},		
+				"Drain": {
+					"equipment": {
+						"Drain": {"type": "Drain"}
+					},
+					"compatible_process_list": [
+						"Drain"
+					],
+					"category": "Prepping"
+				},		
+				"Knife": {
+					"equipment": {
+						"Knife": {"type": "Knife"}
+					},
+					"compatible_process_list": [
+						"Knife"
+					],
+					"category": "Prepping"
+				},					
+				"Vacuum Tumblers": {
+					"equipment": {
+						"Small Tumbler 1": {"type": "Vacuum Tumbler STANDARD"},
+						"Small Tumbler 2": {"type": "Vacuum Tumbler STANDARD"}
+					},
+					"compatible_process_list": [
+						"Batch Mix"
+					],
+					"category": "Prepping"
+				},
+				"Manual Mixing": {
+					"equipment": {
+						"Bowl Mixing Station 1": {"type": "Bowl Mixing Station"},
+						"Bowl Mixing Station 2": {"type": "Bowl Mixing Station"},
+						"Tote": {"type": "Tote"}
+					},
+					"compatible_process_list": [
+						"Batch Mix",
+						"Sauce Mix"
+					],
+					"category": "Mixing"
+				},
+				"Facility": {
+					"equipment": {
+					},
+					"compatible_process_list": [
+						"Facility"
+					],
+					"category": "Facility"
+				}
+			},
+			"work_center_category_list": [
+				"Hot Line",
+				"Mixing",
+				"Prepping",
+				"Portioning and Sealing"
+			],
+			"facility_tasks": [
+				{
+					"title": "Inventory/S+R",
+					"subtype": "S+R",
+					"hours": "160"
+				},
+				{
+					"title": "Sanitation",
+					"subtype": "Sanitation",
+					"hours": "440"
+				},
+				{
+					"title": "Breaks",
+					"subtype": "Breaks",
+					"hours": "120"
+				}
+			]
+		},
+		"Tubeway": {
+			"storage_cap": {
+				"cooler": 1,
+				"freezer": 2,
+				"dry": 3
+			},
+			"work_centers":  {
+				"Tray Sealers": {
+					"equipment": {
+						"GTRe Tray Sealing Line": {"type": "Tray Sealer GTRe"},
+						"Tray Sealer ILPRA 1": {"type": "Tray Sealer ILPRA"}
+					},
+					"compatible_process_list": [
+						"Tray Portioning and Sealing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Can Openers": {
+					"equipment": {
+						"Pneumatic Can Opener 1": {"type": "Pneumatic Can Opener"},
+						"Manual Can Opener 1": {"type": "Manual Can Opener"}
+					},
+					"compatible_process_list": [
+						"Open",
+						"Can Opening"
+					],
+					"category": "Prepping"
+				},				
+				"Garnish Stations": {
+					"equipment": {
+						"Garnish Station 1": {"type": "Garnish Station"},
+						"Garnish Station 2": {"type": "Garnish Station"},
+						"Garnish Station 3": {"type": "Garnish Station"}
+					},
+					"compatible_process_list": [
+						"Garnish Tray Assembly",
+						"Garnish Tray Building"
+					],
+					"category": "Sleeving"
+				},
+				"Sleeving Stations": {
+					"equipment": {
+						"Sleeving Station 1": {"type": "Sleeving Station Tubeway"},
+						"Sleeving Station 2": {"type": "Sleeving Station Tubeway"},
+						"Sleeving Station 3": {"type": "Sleeving Station Tubeway"}
+					},
+					"compatible_process_list": [
+						"Sleeving"
+					],
+					"category": "Sleeving"
+				},
+				"VFFS Liquid": {
+					"equipment": {
+						"Dangan": {"type": "Dangan Astromark II"}
+					},
+					"compatible_process_list": [
+						"Liquid Sachet Depositing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Manual Mixing": {
+					"equipment": {
+						"Bowl Mixing Station 1": {"type": "Bowl Mixing Station"},
+						"Bowl Mixing Station 2": {"type": "Bowl Mixing Station"}
+					},
+					"compatible_process_list": [
+						"Batch Mix",
+						"Sauce Mix"
+					],
+					"category": "Mixing"
+				},				
+				"Drain": {
+					"equipment": {
+						"Drain": {"type": "Drain"}
+					},
+					"compatible_process_list": [
+						"Drain"
+					],
+					"category": "Prepping"
+				},				
+				"VFFS Solid": {
+					"equipment": {
+						"Dry Bucket 1": {"type": "Dry Bucket Machine"},
+						"Dry Bucket 2": {"type": "Dry Bucket Machine"},
+						"Dry Bucket 3": {"type": "Dry Bucket Machine"}
+					},
+					"compatible_process_list": [
+						"Dry Sachet Depositing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Manual Portioning 1": {
+					"equipment": {
+						"Manual Portioning 1": {"type": "Manual Portioning Station Tubeway"},
+						"Manual Portioning 2": {"type": "Manual Portioning Station Tubeway"},
+						"Manual Portioning 3": {"type": "Manual Portioning Station Tubeway"},
+						"Manual Portioning 4": {"type": "Manual Portioning Station Tubeway"}
+					},
+					"compatible_process_list": [
+						"Cup Portioning",
+						"Clamshell Portioning"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Bandsealers": {
+					"equipment": {
+						"Bandsealer 1": {"type": "Bandrite Bandsealer"},
+						"Bandsealer 2": {"type": "Bandrite Bandsealer"},
+						"Bandsealer 3": {"type": "Bandrite Bandsealer"}
+					},
+					"compatible_process_list": [
+						"Band Sealing"
+					],
+					"category": "Portioning and Sealing"
+				},
+				"Pack 1": {
+					"equipment": {
+						"Line 1": {"type": "Tubeway Packout Line"},
+						"Line 2": {"type": "Tubeway Packout Line"}
+					},
+					"compatible_process_list": [
+						"Packout"
+					],
+					"category": "Packout"
+				},
+				"Facility": {
+					"equipment": {
+					},
+					"compatible_process_list": [
+						"Facility"
+					],
+					"category": "Facility"
+				}
+			},
+			"work_center_category_list": [
+				"Portioning and Sealing"
+			],
+			"facility_tasks": [
+				{
+					"title": "Inventory/S+R",
+					"subtype": "S+R",
+					"hours": "160"
+				},
+				{
+					"title": "Sanitation",
+					"subtype": "Sanitation",
+					"hours": "200"
+				},
+				{
+					"title": "Breaks",
+					"subtype": "Breaks",
+					"hours": "120"
+				}
+			]
+		}
+	},
+	"default_locations": {
+		"Packout": "Tubeway",
+		"Sleeving": "Tubeway",
+		"Portioning": "Tubeway",
+		"Prep": "Pershing",
+		"Receiving": "Pershing"
+	},
+	"scheduling_preferences": {
+		"Packout": "MAX_CAPACITY"
+	},
+	"staffing": {
+		"corporate": [
+			{"name": "Cal", "email": "cal@tovala.com"},
+			{"name": "Erik", "email": "erik@tovala.com"},
+			{"name": "David B", "email": "dbarrent@tovala.com"}		
+		],
+		"plant_managers": [
+			{"name": "Mickey", "email": "mickey@tovala.com"},
+			{"name": "Jen", "email": "jen@tovala.com"},
+			{"name": "Peggy", "email": "peggy@tovala.com"},
+			{"name": "Salma", "email": "salma@tovala.com"},
+			{"name": "Mark", "email": "mark@tovala.com"},
+			{"name": "Subash", "email": "subash@tovala.com"},
+			{"name": "Bikash", "email": "bikash@tovala.com"},
+			{"name": "Bryan", "email": "brobinson@tovala.com"},						
+			{"name": "Angelica", "email": "angelica@tovala.com"},
+			{"name": "Itsury", "email": "itsury@tovala.com"},
+			{"name": "Bushra", "email": "bushra@tovala.com"},
+			{"name": "Oscar", "email": "oscar@tovala.com"},
+			{"name": "Silvia", "email": "silvia.rincon@tovala.com"},
+			{"name": "Derrick", "email": "derrick@tovala.com"},			
+			{"name": "Esthefani", "email": "esthefani@tovala.com"},
+			{"name": "Tika", "email": "tika@tovala.com"},
+			{"name": "Production 1", "email": "production1@tovala.com"},
+			{"name": "Production 2", "email": "production2@tovala.com"},
+			{"name": "Maddie", "email": "maddie@tovala.com"}
+		],
+		"mods": [
+
+		],
+		"supervisors": [		
+		]
+	},
+	"production_days": [
+		"Sunday",
+		"Monday",
+		"Tuesday",
+		"Wednesday",
+		"Thursday",
+		"Friday",
+		"Saturday",
+		"Sunday2",
+		"Monday2"
+	]
+}

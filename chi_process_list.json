@@ -1,0 +1,955 @@
+{
+	"validTaskTypes": [
+	    "Band Sealing",
+		"Batch Mix",
+	    "Bowl Mixing",
+	    "Can Opening",
+		"Clamshell Portioning",
+		"Cup Portioning",
+		"Dish Washing",
+		"Drain",
+		"Dry Sachet Depositing",
+		"Facility",
+		"Food Processor",
+		"Forming",
+		"Freeze",
+		"Garnish Tray Assembly",
+		"Garnish Tray Building",
+		"Kettle",
+		"Knife",
+		"Liquid Sachet Depositing",
+		"Manual Prep",
+		"Open",
+		"Oven",
+		"Packout",
+		"Planetary Mix",
+		"Receiving",
+		"Robo Coupe",
+		"Sauce Mix",
+		"Scaling",
+		"Skillet",
+		"Sleeving",
+		"Snapping",
+		"Thaw",
+		"Thaw Frozen",
+		"Tray Portioning and Sealing",
+		"Tumbler Mixing",
+		"VCM"
+	],
+	"validTaskSubTypes": [
+		"Band Sealing: Breads",
+	    "Band Sealing: Veggies (1 Drop)",
+	    "Band Sealing: Veggies (2 Drop)",
+
+	    "Batch Mix: (Default)",
+	    "Batch Mix: Dry Spices Mix",
+	    "Batch Mix: Food Seasoning Mixing",
+
+	    "Bowl Mixing: (Default)",
+	    "Bowl Mixing: Dry Seasoning",
+	    "Bowl Mixing: Liquid Seasoning",
+	    "Bowl Mixing: Season Root Veggies",
+
+	    "Can Opening: (Default)",
+	    "Can Opening: Don't Pour or Drain",
+	    "Can Opening: Pour, Don't Drain",
+	    "Can Opening: Pour and Drain",
+
+	    "Clamshell Portioning: (Default)",
+	    "Clamshell Portioning: (1 Drop)",
+	    "Clamshell Portioning: (2 Drop)",
+
+		"Cup Portioning: (Default)",
+		"Cup Portioning: 1oz - Dry",
+		"Cup Portioning: 2oz - Dry",
+		"Cup Portioning: 1oz - Wet",
+		"Cup Portioning: 2oz - Wet",
+		"Cup Portioning: 1oz - Clumpy",
+		"Cup Portioning: 2oz - Clumpy",
+		"Cup Portioning: 1oz - Butter",
+		"Cup Portioning: 2oz - Butter",
+		"Cup Portioning: Cheddar Cheese (Pau Example)",
+		"Cup Portioning: Spices (General)",
+
+		"Drain: (Default)",
+		"Drain: Clean Herbs",
+		"Drain: Drain Cans - No Rinse",
+		"Drain: Drain Cans - Yes Rinse",
+		"Drain: Drain And Centrifuge",
+
+	    "Dry Sachet Depositing: (Default)",
+
+	    "Facility: Breaks",
+	    "Facility: Sanitation",
+	    "Facility: S+R",
+
+	    "Food Processor: (Default)",
+	    "Food Processor: Garlic Mincing",
+
+	    "Forming: (Default)",
+	    "Forming: Meatball",
+
+	    "Freeze: (Default)",
+
+	    "Garnish Tray Assembly: (Default)",
+	    "Garnish Tray Building: (Default)",
+
+	    "Kettle: (Default)",
+	    "Kettle: 50% Liquid Reduction",
+	    "Kettle: Cook And Brown Meat",
+	    "Kettle: Cook And Brown Veggies",
+	    "Kettle: Cook Veggie Mix",
+	    "Kettle: Glaze Type Sauce - No Blending",
+	    "Kettle: Glaze Type Sauce - Yes Blending",
+	    "Kettle: Pickle Veggies",
+	    "Kettle: Roux 50/50",
+	    "Kettle: Roux Based Sauce",
+	    "Kettle: Simmer 15 min - Yes Sauteing - Yes Blending",
+	    "Kettle: Simmer 15 min - Yes Sauteing - No Blending",
+	    "Kettle: Simmer 15 min - No Sauteing - Yes Blending",
+	    "Kettle: Simmer 15 min - No Sauteing - No Blending",
+	    "Kettle: Simmer 30 min - Yes Sauteing - Yes Blending",
+	    "Kettle: Simmer 30 min - Yes Sauteing - No Blending",
+	    "Kettle: Simmer 30 min - No Sauteing - Yes Blending",
+	    "Kettle: Simmer 30 min - No Sauteing - No Blending",
+	    "Kettle: Simmer 45 min - Yes Sauteing - Yes Blending",
+	    "Kettle: Simmer 45 min - Yes Sauteing - No Blending",
+	    "Kettle: Simmer 45 min - No Sauteing - Yes Blending",
+	    "Kettle: Simmer 45 min - No Sauteing - No Blending",
+	    "Kettle: Simmer 60 min - Yes Sauteing - Yes Blending",
+	    "Kettle: Simmer 60 min - Yes Sauteing - No Blending",
+	    "Kettle: Simmer 60 min - No Sauteing - Yes Blending",
+	    "Kettle: Simmer 60 min - No Sauteing - No Blending",
+
+	    "Knife: (Default)",
+
+	    "Liquid Sachet Depositing: (Default)",
+	    "Liquid Sachet Depositing: High Viscosity Sauce",
+	    "Liquid Sachet Depositing: Low Viscosity Sauce",
+	    "Liquid Sachet Depositing: Chunky Sauce",
+	    "Liquid Sachet Depositing: Greater than 39 Grams",
+		"Liquid Sachet Depositing: Greater than 75 Grams",
+
+	    "Manual Prep: (Default)",
+	    "Manual Prep: Bottle Opening - No Pouring",
+	    "Manual Prep: Bottle Opening - Yes Pouring",
+	    "Manual Prep: Butter Unwrapping",
+	    "Manual Prep: Herb Manual Chopping - No Cleaning",
+	    "Manual Prep: Herb Manual Leaf Picking - No Cleaning",
+	    "Manual Prep: Layering Food On Metal Sheets For Oven - Root veggies",
+	    "Manual Prep: Peel citrics",
+	    
+	    "Open: (Default)",
+
+	    "Oven: (Default)",
+	    "Oven: Meatball",
+	    "Oven: Cook Cycle Beef Meatballs 100",
+	    "Oven: Cook Cycle Steamed Chx 200",
+	    "Oven: Cook Cycle 4.5 Carrot 300",
+	    "Oven: Cook Cycle Bird Meatball 400",
+	    "Oven: Cook Cycle STM Broc 2 kill 500",
+	    "Oven: Cook Cycle Confit Garlic 600",
+	    "Oven: Cook Cycle Rst Brc 2 kill 700",
+	    "Oven: Cook Cycle Cauli 4 rice 800",
+	    "Oven: Cook Cycle Rst Broc Bits 900",
+	    "Oven: Cook Cycle Peewee Potato 1000",
+	    "Oven: Cook Cycle 4.5 Eggplant 1100",
+	    "Oven: Cook Cycle 4.5 Beets in Pans 1200",
+	    "Oven: Cook Cycle Salsa Roja Veg 1300",
+	    "Oven: Cook Cycle Salsa Verde Veg 1400",
+	    "Oven: Cook Cycle 4.5 S. Potato 1500",
+	    "Oven: Cook Cycle 4.5 Red Potato 1600",
+	    "Oven: Cook Cycle 1 yukn pot rst 1700",
+	    "Oven: Cook Cycle Stm Caul A Dent 1800",
+	    "Oven: Cook Cycle 1 Bnut Rstd 1900",
+	    "Oven: Cook Cycle STM Yukon 4 Mash 2000",
+	    "Oven: Cook Cycle RSTD Cauli 2 Kill 2100",
+	    "Oven: Cook Cycle WHL S Pot 4 Mash 2200",
+	    "Oven: Cook Cycle RST Fingerling 2300",
+	    "Oven: Cook Cycle 3.8 RST Zuc. 2400",
+	    "Oven: Cook Cycle 3.8 RST Carrot 2500",
+	    "Oven: Cook Cycle 1.4 SL. Rst Pepp 2600",
+	    "Oven: Cook Cycle 4.5 STM Red Pot 2700",
+	    "Oven: Cook Cycle FRNCH GRN LENTL 2800",
+	    "Oven: Cook Cycle 45 CAULIFLOWER 2900",
+	    "Oven: Cook Cycle 3.8 STM CRRT 3000",
+	    "Oven: Cook Cycle RSTD Rapini 3100",
+	    "Oven: Cook Cycle 4.5 S.POT 4MASH 3200",
+	    "Oven: Cook Cycle 1.2 RSTD RUSSET 3300",
+	    "Oven: Cook Cycle 1 STM RUSSET 3400",
+	    "Oven: Cook Cycle STM CRRT 4.5 3500",
+	    "Oven: Cook Cycle RSTD CBBG 3600",
+	    "Oven: Cook Cycle IQF Cauli Kill 3700",
+	    "Oven: Cook Cycle 1.4 RST Onion 3800",
+	    "Oven: Cook Cycle .5 RST FENNEL 4000",
+	    "Oven: Cook Cycle STMD GARLIC 4100",
+	    "Oven: Cook Cycle RED LENTIL DAL",
+	    "Oven: Cook Cycle RSTD MRBL POTS",
+
+	    "Packout: (Default)",
+	    "Packout: 8 Meal - Single Ice",
+	    "Packout: 8 Meal - Dual Ice",
+	    "Packout: 6 Meal - Single Ice",
+	    "Packout: 6 Meal - Dual Ice",
+	    "Packout: 4 Meal - Single Ice",
+	    "Packout: 4 Meal - Dual Ice",
+	    "Packout: 3 Meal - Single Ice",
+	    "Packout: 3 Meal - Dual Ice",
+
+	    "Planetary Mix: (Default)",
+	    "Planetary Mix: Mashed Root Veggies - Yes Cheese",
+	    "Planetary Mix: Mashed Root Veggies - No Cheese",
+	    "Planetary Mix: Panko Crust",
+	    "Planetary Mix: Pulverize",
+	    "Planetary Mix: Flour Dry Mix",
+	    "Planetary Mix: Butter Mix",
+	    "Planetary Mix: Meatball Farce Mix",
+
+		"Robo Coupe: (Default)",
+
+	    "Sauce Mix: (Default)",
+	    "Sauce Mix: Egg Oil Mix Type",
+	    "Sauce Mix: Vinaigrette Type - No Herbs",
+	    "Sauce Mix: Glaze Type",
+	    "Sauce Mix: Mayonnaise Type",
+	    "Sauce Mix: Ranch Type",
+	    "Sauce Mix: Herb Sauce Type",
+
+	    "Scaling: (Default)",
+	    "Scaling: Small Scale",
+	    "Scaling: Big Scale",
+
+	    "Skillet: (Default)",
+	    "Skillet: Caramelize Veggies",
+	    "Skillet: Brown Mushrooms",
+
+	    "Sleeving: (Default)",
+	    "Sleeving: Sleeve 1 Tray Meals And Build Garnish Trays",
+	    "Sleeving: Sleeve 1 Tray Meals With Built Garnish Trays",
+	    "Sleeving: Sleeve 2 Tray Meals And Build Garnish Trays",
+	    "Sleeving: Sleeve 2 Tray Meals With Built Garnish Trays",
+	    "Sleeving: Build And Fill Garnish Trays Only",
+
+	    "Snapping: (Default)",
+
+	    "Thaw: (Default)",
+		"Thaw: Braised Beef",
+	    "Thaw: Thaw In Cooler",
+	    "Thaw: Thaw In Sink",
+	    "Thaw: Thaw At Room Temperature",
+
+	    "Tray Portioning and Sealing: (Default)",
+	    "Tray Portioning and Sealing: (1 Drop)",
+	    "Tray Portioning and Sealing: (2 Drop)",
+	    "Tray Portioning and Sealing: 1 Drop Dry - Yes Garnish",
+	    "Tray Portioning and Sealing: 1 Drop Dry - No Garnish",
+	    "Tray Portioning and Sealing: 1 Drop Wet - Yes Garnish",
+	    "Tray Portioning and Sealing: 1 Drop Wet - No Garnish",
+	    "Tray Portioning and Sealing: 2 Drop Dry - Yes Garnish",
+	    "Tray Portioning and Sealing: 2 Drop Dry - No Garnish",
+	    "Tray Portioning and Sealing: 2 Drop Wet - Yes Garnish",
+	    "Tray Portioning and Sealing: 2 Drop Wet - No Garnish",
+
+	    "Tumbler Mixing: (Default)",
+	    "Tumbler Mixing: Frozen Grains 2-3 Ingredients",
+	    "Tumbler Mixing: Frozen Grains 4-5 Ingredients",
+	    "Tumbler Mixing: Thick Soup",
+	    "Tumbler Mixing: Pasta With Sauce",
+
+	    "VCM: (Default)",
+	    "VCM: Dry Nuts",
+	    "VCM: Pickled Veggies"
+	],
+
+	"part_version_process_list": {
+		"prep" : [
+			{
+				"partID": "Drained Black Bean - SA",
+				"process_list": [
+					"Open: Can Opening - No Pouring",
+					"Drain: Drain Cans - Yes Rinse"				
+				]
+			}
+		],
+		"thaw" : [
+
+			{
+				"partID": "Braised Beef",
+				"process_list": [
+					"Thaw: Braised Beef"				
+				]
+			}
+		],
+		"portion" : [
+			{
+				"partID": "7e6240ba-47ed-423c-b214-79c71050e867",
+				"name": "Tovala Garlic Herb Seasoning",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			},
+			{
+				"partID": "5009b6d0-d027-4514-bf40-f1b898aa6e78",
+				"name": "Tovala Steak Seasoning",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			},
+			{
+				"partID": "126400b6-ea5e-4982-bb34-5d38c1fa793c",
+				"name": "Tovala Ancho Coffee Rub",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			},
+			{
+				"partID": "f2d48804-9260-4122-9218-65153504fd1f",
+				"name": "Tovala Shawarma Seasoning",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			},
+			{
+				"partID": "30a00a17-8459-4276-b10a-e50e6a34310c",
+				"name": "Chipotle Seasoning",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			},
+			{
+				"partID": "590fde85-391e-4ddf-950f-2eea2b5c8d5f",
+				"name": "Blackened Seasoning",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			},
+			{
+				"partID": "ed4c7c63-92f3-4d32-b0ec-8cfff76e2a47",
+				"name": "Med Spice Mix",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			},
+			{
+				"partID": "2f0cd4ba-d895-444d-9997-d37d270fe688",
+				"name": "Hickory Rub",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			},
+			{
+				"partID": "129b2ff2-1aa0-4e8c-ad2b-51ff34d29d16",
+				"name": "Togarashi Seasoning",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			}
+			,
+			{
+				"partID": "e7c59045-ad86-4d1a-bf1a-9224f2ae42b4",
+				"name": "Mediterranean Seasoning",
+				"process_list": [
+					"Cup Portioning: Spices (General)"				
+				]
+			}
+		],
+		"sleeving" : [
+			{
+				"partID": "Jamaican Jerk Pork Chop with Coconut Beans + Rice",
+				"process_list": [
+					"Sleeving: Build And Fill Garnish Trays Only",
+	    			"Sleeving: Sleeve 2 Tray Meals With Built Garnish Trays"			
+				]
+			}
+		]
+	},
+
+
+	"process_subtype_info": [
+		{	
+			"name": "Default",
+
+			"setup_workers": "<DEFAULT>",
+			"assemblers": "<DEFAULT>",
+			"cooks": "<DEFAULT>",
+			"cleanup_workers": "<DEFAULT>",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countif(AC<ROW>:AG<ROW>,\"80 gal Kettle\")*0",
+			"execution_duration": "0.0001", 
+			"cleanup_duration": ""
+		},
+		{	
+			"name": "Facility: Breaks",
+
+			"setup_workers": "0",
+			"assemblers": "1",
+			"cooks": "0",
+			"cleanup_workers": "0",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "0",
+			"execution_duration": "=M<ROW>", 
+			"cleanup_duration": "0"
+		},
+		{	
+			"name": "Facility: Sanitation",
+
+			"setup_workers": "0",
+			"assemblers": "1",
+			"cooks": "0",
+			"cleanup_workers": "0",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "0",
+			"execution_duration": "=M<ROW>", 
+			"cleanup_duration": "0"
+		},
+		{	
+			"name": "Facility: S+R",
+
+			"setup_workers": "0",
+			"assemblers": "1",
+			"cooks": "0",
+			"cleanup_workers": "0",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "0",
+			"execution_duration": "=M<ROW>", 
+			"cleanup_duration": "0"
+		},
+		{	
+			"name": "Packout: (Default)",
+
+			"setup_workers": "4",
+			"assemblers": "=if(countif(AC<ROW>:AG<ROW>,\"Tubeway Packout Line\")=1,33,if(countif(AC<ROW>:AG<ROW>,\"Tubeway Packout Line\")=2,62,1))",
+			"cooks": "0",
+			"cleanup_workers": "4",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countif(AC<ROW>:AG<ROW>,\"Tubeway Packout Line\")*0.15",
+			"execution_duration": "=M<ROW>/(if(countif(AC<ROW>:AG<ROW>,\"Tubeway Packout Line\")=1,620,if(countif(AC<ROW>:AG<ROW>,\"Tubeway Packout Line\")=2,1150,1)))", 
+			"cleanup_duration": "=countif(AC<ROW>:AG<ROW>,\"Tubeway Packout Line\")*0.15"
+		},
+		{	
+			"name": "Oven: Meatball",
+
+			"setup_workers": "1",
+			"assemblers": "0",
+			"cooks": "1",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "=countif(AC<ROW>:AG<ROW>,\"Combi Oven STANDARD\")*560",
+
+			"setup_duration": "=countif(AC<ROW>:AG<ROW>,\"Combi Oven STANDARD\")*0.15",
+			"execution_duration": "=ceiling(AL<ROW>)*0.5", 
+			"cleanup_duration": "=countif(AC<ROW>:AG<ROW>,\"Combi Oven STANDARD\")*0.15"
+		},
+		{	
+			"name": "Forming: Meatball",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Meatball Machine\")*7",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countif(AC<ROW>:AG<ROW>,\"Meatball Machine\")*0.15",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Meatball Machine\")*2000)", 
+			"cleanup_duration": "=countif(AC<ROW>:AG<ROW>,\"Meatball Machine\")*0.15"
+		},
+		{	
+			"name": "Sleeving: (Default)",
+
+			"setup_workers": "=3",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Sleeving Station Pershing\")*5+countif(AC<ROW>:AG<ROW>,\"Sleeving Station Tubeway\")*18+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*15",
+			"cooks": "0",
+			"cleanup_workers": "3",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Sleeving Station Pershing\")*640+countif(AC<ROW>:AG<ROW>,\"Sleeving Station Tubeway\")*1800+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*1800)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05"
+		},
+		{	
+			"name": "Garnish Tray Building: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "4",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "0.01",
+			"execution_duration": "=M<ROW>/(640*4)", 
+			"cleanup_duration": "0.01"
+		},
+		{	
+			"name": "Garnish Tray Assembly: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "4",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "0.01",
+			"execution_duration": "=M<ROW>/(300*4)", 
+			"cleanup_duration": "0.01"
+		},
+		{	
+			"name": "Clamshell Portioning: (1 Drop)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*4+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*7+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*7",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*700+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*1320+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*1320)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05"
+		},
+		{	
+			"name": "Clamshell Portioning: (2 Drop)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*4+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*7+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*7",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*700+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*1320+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*1320)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05"
+		},
+		{	
+			"name": "Tray Portioning and Sealing: (1 Drop)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x3\")*4+countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x4\")*4+countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x5\")*4+countif(AC<ROW>:AG<ROW>,\"Tray Sealer ILPRA\")*5+countif(AC<ROW>:AG<ROW>,\"Tray Sealer GTRe\")*4+countif(AC<ROW>:AG<ROW>,\"Tray Sealer GT4\")*10",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.25",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x3\")*720+countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x4\")*1200+countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x5\")*1400+countif(AC<ROW>:AG<ROW>,\"Tray Sealer ILPRA\")*720+countif(AC<ROW>:AG<ROW>,\"Tray Sealer GTRe\")*1300+countif(AC<ROW>:AG<ROW>,\"Tray Sealer GT4\")*3400)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.25"
+		},
+		{	
+			"name": "Tray Portioning and Sealing: (2 Drop)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x3\")*6+countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x4\")*6+countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x5\")*6+countif(AC<ROW>:AG<ROW>,\"Tray Sealer ILPRA\")*7+countif(AC<ROW>:AG<ROW>,\"Tray Sealer GTRe\")*6+countif(AC<ROW>:AG<ROW>,\"Tray Sealer GT4\")*10",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.25",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x3\")*720+countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x4\")*1200+countif(AC<ROW>:AG<ROW>,\"Tray Sealing Line Sealmax x5\")*1400+countif(AC<ROW>:AG<ROW>,\"Tray Sealer ILPRA\")*720+countif(AC<ROW>:AG<ROW>,\"Tray Sealer GTRe\")*1200+countif(AC<ROW>:AG<ROW>,\"Tray Sealer GT4\")*3400)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.25"
+		},
+		{	
+			"name": "Liquid Sachet Depositing: Greater than 70 Grams",
+
+			"setup_workers": "=if(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")>0,3,0)+if(countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")>0,1,0)",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*3+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*1",
+			"cooks": "0",
+			"cleanup_workers": "=if(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")>0,3,0)+if(countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")>0,1,0)",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*0.15+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*0.5",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*6000+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*840)", 
+			"cleanup_duration": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*0.2+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*0.75"
+		},
+		{	
+			"name": "Liquid Sachet Depositing: (Default)",
+
+			"setup_workers": "=if(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")>0,3,0)+if(countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")>0,1,0)",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*3+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*1",
+			"cooks": "0",
+			"cleanup_workers": "=if(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")>0,3,0)+if(countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")>0,1,0)",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*0.15+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*0.5",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*13200+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*840)", 
+			"cleanup_duration": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*0.2+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*0.75"
+		},
+		{	
+			"name": "Liquid Sachet Depositing: Greater than 39 Grams",
+
+			"setup_workers": "=if(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")>0,3,0)+if(countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")>0,1,0)",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*3+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*1",
+			"cooks": "0",
+			"cleanup_workers": "=if(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")>0,3,0)+if(countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")>0,1,0)",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*0.15+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*0.5",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*13200+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*840)", 
+			"cleanup_duration": "=countif(AC<ROW>:AG<ROW>,\"Dangan Astromark II\")*0.2+countif(AC<ROW>:AG<ROW>,\"PCET Liquid Sachet Machine\")*0.75"
+		},
+		{	
+			"name": "Dry Sachet Depositing: (Default)",
+
+			"setup_workers": "=if(countif(AC<ROW>:AG<ROW>,\"Dry Bucket Machine\")>0,3,0)",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Dry Bucket Machine\")*3",
+			"cooks": "0",
+			"cleanup_workers": "=if(countif(AC<ROW>:AG<ROW>,\"Dry Bucket Machine\")>0,3,0)",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countif(AC<ROW>:AG<ROW>,\"Dry Bucket Machine\")*0.125",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Dry Bucket Machine\")*2400)", 
+			"cleanup_duration": "=countif(AC<ROW>:AG<ROW>,\"Dry Bucket Machine\")*0.125"
+		},
+		{	
+			"name": "Cup Portioning: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*4+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*6+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*6",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*1440+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*1440+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*1440)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05"
+		},
+		{	
+			"name": "Cup Portioning: Spices (General)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*4+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*6+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*6",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*2200+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*2200+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*2200)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05"
+		},
+		{	
+			"name": "Cup Portioning: Cheddar Cheese (Pau Example)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*6+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*7+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*6",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Pershing\")*1000+countif(AC<ROW>:AG<ROW>,\"Manual Portioning Station Tubeway\")*1200+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*400)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05"
+		},
+		{	
+			"name": "Thaw: Braised Beef",
+
+			"setup_workers": "11",
+			"assemblers": "11",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "1",
+			"execution_duration": "1", 
+			"cleanup_duration": "1"
+		},
+		{	
+			"name": "Band Sealing: Breads",
+
+			"setup_workers": "2",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Bandrite Bandsealer\")*11",
+			"cooks": "0",
+			"cleanup_workers": "2",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.125",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Bandrite Bandsealer\")*2160)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.125"
+		},
+		{	
+			"name": "Band Sealing: Veggies (1 Drop)",
+
+			"setup_workers": "2",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Bandrite Bandsealer\")*11",
+			"cooks": "0",
+			"cleanup_workers": "2",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.125",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Bandrite Bandsealer\")*2160)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.125"
+		},
+		{	
+			"name": "Band Sealing: Veggies (2 Drop)",
+
+			"setup_workers": "2",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Bandrite Bandsealer\")*11",
+			"cooks": "0",
+			"cleanup_workers": "2",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.125",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Bandrite Bandsealer\")*2160)", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.125"
+		},
+		{	
+			"name": "Oven: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "0",
+			"cooks": "1",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "=countif(AC<ROW>:AG<ROW>,\"Combi Oven STANDARD\")*120",
+
+			"setup_duration": ".3",
+			"execution_duration": "=ceiling(AL<ROW>)*0.5", 
+			"cleanup_duration": ".2"
+		},
+		{	
+			"name": "Kettle: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "0",
+			"cooks": "1",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "=countif(AC<ROW>:AG<ROW>,\"40 gal Skillet\")*318+countif(AC<ROW>:AG<ROW>,\"60 gal Kettle\")*424+countif(AC<ROW>:AG<ROW>,\"80 gal Kettle\")*636+countif(AC<ROW>:AG<ROW>,\"Candy Burner\")*100",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*3", 
+			"cleanup_duration": ".25"
+		},
+		{	
+			"name": "Skillet: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "0",
+			"cooks": "1",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "=countif(AC<ROW>:AG<ROW>,\"40 gal Skillet\")*318+countif(AC<ROW>:AG<ROW>,\"Candy Burner\")*100",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*3", 
+			"cleanup_duration": ".25"
+		},		
+		{	
+			"name": "Planetary Mix: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "0",
+			"cooks": "1.5",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "=countif(AC<ROW>:AG<ROW>,\"80 qt Stand Mixer\")*70",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*0.3", 
+			"cleanup_duration": ".25"
+		},
+		{	
+			"name": "Batch Mix: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "0",
+			"cooks": "1.5",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "=countif(AC<ROW>:AG<ROW>,\"Vacuum Tumbler STANDARD\")*400+countif(AC<ROW>:AG<ROW>,\"New Tumbler STANDARD\")*200+countif(AC<ROW>:AG<ROW>,\"Tote\")*400+countif(AC<ROW>:AG<ROW>,\"Bowl Mixing Station\")*200",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*0.3", 
+			"cleanup_duration": ".25"
+		},
+		{	
+			"name": "Batch Mix: Dry Spices Mix",
+
+			"setup_workers": "1",
+			"assemblers": "0",
+			"cooks": "1",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "=countif(AC<ROW>:AG<ROW>,\"Bowl Mixing Station\")*200",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*0.3", 
+			"cleanup_duration": ".125"
+		},
+		{	
+			"name": "Sauce Mix: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "0",
+			"cooks": "1",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "=countif(AC<ROW>:AG<ROW>,\"Stick Blender STANDARD\")*400+countif(AC<ROW>:AG<ROW>,\"Bowl Mixing Station\")*400",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*0.5", 
+			"cleanup_duration": ".125"
+		},
+		{	
+			"name": "VCM: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "",
+			"cooks": "1",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "12",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*5/60", 
+			"cleanup_duration": ".25"
+		},	
+		{	
+			"name": "Thaw: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "4",
+			"cooks": "",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "20",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*2/60", 
+			"cleanup_duration": ".25"
+		},	
+		{	
+			"name": "Knife: (Default)",
+
+			"setup_workers": ".3",
+			"assemblers": "1",
+			"cooks": "",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "1.5",
+
+			"setup_duration": ".3",
+			"execution_duration": "=ceiling(AL<ROW>)*3/60", 
+			"cleanup_duration": ".15"
+		},	
+		{	
+			"name": "Drain: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "1",
+			"cooks": "",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "6",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*.5/60", 
+			"cleanup_duration": ".25"
+		},	
+		{	
+			"name": "Open: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "1",
+			"cooks": "",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "=M<ROW>/AM<ROW>",
+			"quantity_per_batch": "6",
+
+			"setup_duration": ".25",
+			"execution_duration": "=ceiling(AL<ROW>)*.5/60", 
+			"cleanup_duration": ".25"
+		},						
+		{	
+			"name": "Garnish Tray Assembly: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Garnish Station\")*4",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Garnish Station\"+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*100", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05"
+		},
+		{	
+			"name": "Garnish Tray Building: (Default)",
+
+			"setup_workers": "1",
+			"assemblers": "=countif(AC<ROW>:AG<ROW>,\"Garnish Station\")*4",
+			"cooks": "0",
+			"cleanup_workers": "1",
+
+			"batch_quantity": "",
+			"quantity_per_batch": "",
+
+			"setup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05",
+			"execution_duration": "=M<ROW>/(countif(AC<ROW>:AG<ROW>,\"Garnish Station\"+countif(AC<ROW>:AG<ROW>,\"Westvala Prep Station\")*160", 
+			"cleanup_duration": "=countunique(X<ROW>:AB<ROW>)*0.05"
+		}
+	]
+}

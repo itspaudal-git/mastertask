@@ -1,0 +1,344 @@
+{
+	"40 gal Skillet": {
+		"compatible_process_list": [
+			"Skillet",
+			"Kettle"
+		],
+		"additional_properties": {
+			"capacity": "318" 
+		}
+	},
+	"60 gal Kettle": {
+		"compatible_process_list": [
+			"Kettle"
+		],
+		"additional_properties": {
+			"capacity": "424" 
+		}
+	},
+	"80 gal Kettle": {
+		"compatible_process_list": [
+			"Kettle"
+		],
+		"additional_properties": {
+			"capacity": "636" 
+		}
+	},
+	"Candy Burner": {
+		"compatible_process_list": [
+			"Skillet",
+			"Kettle"
+		],
+		"additional_properties": {
+			"capacity": "100" 
+		}
+	},
+	"80 qt Stand Mixer": {
+		"compatible_process_list": [
+			"Planetary Mix"
+		],
+		"additional_properties": {
+			"capacity": "80",
+			"capacity_uom": "qt" ,
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Combi Oven STANDARD": {
+		"compatible_process_list": [
+			"Oven"
+		],
+		"additional_properties": {
+			"capacity": "16",
+			"capacity_uom": "metal sheets" 
+		}
+	},
+	"Manual Can Opener": {
+		"compatible_process_list": [
+			"Open",
+			"Can Opening" 
+		],
+		"additional_properties": {
+			"Can Size Compatibility": "All sizes"
+		}
+	},
+	"Manual Portioning Station Pershing": {
+		"compatible_process_list": [
+			"Cup Portioning",
+			"Clamshell Portioning"
+		],
+		"additional_properties": {
+		}
+	},
+	"Manual Portioning Station Tubeway": {
+		"compatible_process_list": [
+			"Cup Portioning",
+			"Clamshell Portioning"
+		],
+		"additional_properties": {
+		}
+	},
+	"Manual Portioning Station Westvala": {
+		"compatible_process_list": [
+			"Cup Portioning",
+			"Clamshell Portioning"
+		],
+		"additional_properties": {
+		}
+	},
+	"Westvala Prep Station": {
+		"compatible_process_list": [
+			"Cup Portioning",
+			"Clamshell Portioning",
+			"Garnish Tray Assembly",
+			"Garnish Tray Building",
+			"Sleeving"
+		],
+		"additional_properties": {
+		}
+	},
+	"Prepping Station Pershing": {
+		"compatible_process_list": [
+			"Manual Prep",
+			"Scaling"
+		],
+		"additional_properties": {
+		}
+	},
+	"Prepping Station Tubeway": {
+		"compatible_process_list": [
+			"Manual Prep",
+			"Scaling"
+		],
+		"additional_properties": {
+		}
+	},
+	"Garnish Station": {
+		"compatible_process_list": [
+			"Garnish Tray Assembly",
+			"Garnish Tray Building"
+		],
+		"additional_properties": {
+		}
+	},
+	"Sleeving Station Pershing": {
+		"compatible_process_list": [
+			"Sleeving"
+		],
+		"additional_properties": {
+		}
+	},
+	"Sleeving Station Tubeway": {
+		"compatible_process_list": [
+			"Sleeving"
+		],
+		"additional_properties": {
+		}
+	},
+	"Tubeway Packout Line": {
+		"compatible_process_list": [
+			"Packout"
+		],
+		"additional_properties": {
+			"max_throughput": "26.5 trays per min"
+		}
+	},
+	"Westvala Packout Line": {
+		"compatible_process_list": [
+			"Packout"
+		],
+		"additional_properties": {
+			"max_throughput": "26.5 trays per min"
+		}
+	},
+	"Tray Sealer GTRe": {
+		"compatible_process_list": [
+			"Tray Portioning and Sealing"
+		],
+		"additional_properties": {
+			"max_throughput": "26.5 trays per min"
+		}
+	},
+	"Tray Sealer GT4": {
+		"compatible_process_list": [
+			"Tray Portioning and Sealing"
+		],
+		"additional_properties": {
+			"max_throughput": "56.67 trays per min"
+		}
+	},
+	"Tray Sealer ILPRA": {
+		"compatible_process_list": [
+			"Tray Portioning and Sealing"
+		],
+		"additional_properties": {
+			"max_throughput": "16 trays per min"
+		}
+	},
+	"Tray Sealing Line Sealmax x3": {
+		"compatible_process_list": [
+			"Tray Portioning and Sealing"
+		],
+		"additional_properties": {
+			"max_throughput": "15 trays per min"
+		}
+	},
+	"Tray Sealing Line Sealmax x4": {
+		"compatible_process_list": [
+			"Tray Portioning and Sealing"
+		],
+		"additional_properties": {
+			"max_throughput": "20 trays per min"
+		}
+	},
+	"Tray Sealing Line Sealmax x5": {
+		"compatible_process_list": [
+			"Tray Portioning and Sealing"
+		],
+		"additional_properties": {
+			"max_throughput": "25 trays per min"
+		}
+	},
+	"Pneumatic Can Opener": {
+		"compatible_process_list": [
+			"Open",
+			"Can Opening"
+		],
+		"additional_properties": {
+			"Can Size Compatibility": "Number 10"
+		}
+	},
+	"Meatball Machine": {
+		"compatible_process_list": [
+			"Forming"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Stick Blender STANDARD": {
+		"compatible_process_list": [
+			"Sauce Mix"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"New Tumbler STANDARD": {
+		"compatible_process_list": [
+			"Tumbler Mixing",
+			"Batch Mix"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Vacuum Tumbler STANDARD": {
+		"compatible_process_list": [
+			"Tumbler Mixing",
+			"Batch Mix"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Tote": {
+		"compatible_process_list": [
+			"Batch Mix",
+			"Sauce Mix"
+		],
+		"additional_properties": {
+			"test_detail": "detail 4"
+		}
+	},
+	"Bowl Mixing Station": {
+		"compatible_process_list": [
+			"Batch Mix",
+			"Sauce Mix"
+		],
+		"additional_properties": {
+			"test_detail": "detail 4"
+		}
+	},
+	"PCET Liquid Sachet Machine": {
+		"compatible_process_list": [
+			"Liquid Sachet Depositing"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Dangan Astromark II": {
+		"compatible_process_list": [
+			"Liquid Sachet Depositing"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Bandrite Bandsealer": {
+		"compatible_process_list": [
+			"Band Sealing"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Dry Bucket Machine": {
+		"compatible_process_list": [
+			"Dry Sachet Depositing"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Vertical Cutting Machine": {
+		"compatible_process_list": [
+			"VCM"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Thaw Frozen": {
+		"compatible_process_list": [
+			"Thaw",
+			"Batch Mix"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},	
+
+	"Drain": {
+		"compatible_process_list": [
+			"Drain"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},
+	"Open": {
+		"compatible_process_list": [
+			"Open"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},		
+	"Knife": {
+		"compatible_process_list": [
+			"Knife"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	},	
+	"Candy Burner Vulcan": {
+		"compatible_process_list": [
+			"N/A"
+		],
+		"additional_properties": {
+			"Placeholder": "Placeholder_data"
+		}
+	}
+}
